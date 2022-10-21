@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item .nav-link {
+    padding-right: 45px !important;
+}
+
+.btn-outline-success {
+    padding: 10px 25px;
+    color: red;
+}
+
+.btn-outline-success:hover {
+    background-color: rgb(240, 60, 60);
+    color: white;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.shipping {
+    width: 30%;
+    margin: 10% 0 5% 0%
+}
+
+.security {
+    width: 24%;
+    margin: 5% 0 5% 0;
+}
+
+.support {
+    width: 32%;
+    margin: 0% 0 5% 0;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125) !important;
+    border-radius: 0.25rem;
+    min-height: 18rem;
+    box-shadow: 2px 1px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.offer-one {
+    width: 100%;
+    height: 100vh;
+}
+
+.offer-two,
+.offer-three,
+.offer-four {
+    width: 100%;
+    height: 50vh;
+}
+
+.offer-one {
+    padding: 10px;
+}
+
+.offer-two {
+    padding: 10px 14px 7px 14px;
+}
+
+.offer-three {
+    padding: 7px 7px 7px 14px;
+}
+
+.offer-four {
+    padding: 7px 14px 7px 7px;
+}
+
+.btn-option {
+    padding: 9px 22px;
+    font-size: 18px;
+    color: black;
+    background-color: transparent;
+}
+
+.btn-option:hover {
+    background-color: rgb(240, 60, 60);
+    color: white;
+}
+
+.our-product {
+    margin-left: 5px;
+}
+
+.fa-star {
+    color: gold;
+    margin-bottom: 20px;
+}
+
+.card-body2 {
+    justify-content: space-between;
+
+}
+
+.card2-img-1 {
+    width: 100%;
+    height: 60vh;
+}
+
+.men-png {
+    object-fit: cover;
+    width: 94%;
+    height: 100%;
+    border: 1px solid block;
+    align-items: center;
+
+}
+
+.men-cont {
+    box-shadow: 3px 5px 9px lightgrey;
+    background-color: white;
+    margin: 10%;
+    border: 1px solid white;
+    border-radius: 9px;
+}
+
+.men-card-bg {
+    background-color: (5deg 37% 93%);
+}
+
+.men-name {
+    margin-top: 10%
+}
+
+.cardlast {
+    margin: 10% 0%;
+    border: 1px solid white;
+    border-radius: 9px;
+    box-shadow: 3px 5px 9px lightgrey;
+    flex-direction: row;
+    height: 71%;
+}
+
+.cardfirst {
+    margin: 10% 0%;
+    border: 1px solid white;
+    border-radius: 9px;
+    box-shadow: 3px 5px 9px lightgrey;
+    flex-direction: row;
+    height: 71%;
+}
+
+.women-png {
+    width: 78%;
+    height: -webkit-fill-available;
+}
+
+.logo-last {
+    width: 25%;
+}
+
+.last-cont {
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin-in {
+    border: 1px solid black;
+    border-radius: 50%;
+    background: transparent;
+    padding: 2%;
+    margin-right: 25px;
+}
+
+.footer-cont {
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width:600px) {
+
+    .card {
+        width: 100%;
+        margin-top: 15px;
+
+    }
+
+    .card-text {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .offer-three,
+    .offer-four {
+        padding: 14px;
+    }
+
+    .cardfirst {
+        margin: 5% 0%;
+        height: 92%;
+    }
+
+    .cardlast {
+        margin: 0% 0%;
+        height: 92%;
+    }
+
+    .women-png {
+        width: 100%;
+        align-items: center;
+        margin-top: 25px;
+        height: -webkit-fill-available;
+    }
+
+    .card-dress {
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:767px) {
+
+
+    .cardfirst,
+    .cardlast {
+        margin: 10% 0%;
+        height: 70%;
+    }
+
+    .women-png {
+        width: 100%;
+        align-items: center;
+        margin-top: 25px;
+        height: -webkit-fill-available;
+    }
+
+    .offer-two,
+    .offer-three,
+    .offer-four {
+        height: 30vh !important;
+    }
+
+    .offer-one {
+        height: 60vh !important;
+
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .card2-img-1 {
+        height: 55vh;
+    }
+
+    .cardfirst,
+    .cardlast {
+        margin: 10% 0%;
+        height: 85%;
+    }
+
+    .women-png {
+        width: 100%;
+        margin-top: 25%;
+        height: -webkit-fill-available;
+    }
+
+    .offer-two,
+    .offer-three,
+    .offer-four {
+        height: 30vh !important;
+    }
+
+    .offer-one {
+        height: 60vh !important;
+    }
+
+}
+
+@media screen and (min-width:992) and (max-width:1024px) {
+
+    .cardfirst,
+    .cardfirst {
+        margin: 10% 0%;
+        height: 80%;
+    }
+
+    .women-png {
+        width: 100%;
+        margin-top: 10%;
+        height: -webkit-fill-available;
+    }
+
+}
