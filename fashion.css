@@ -17,28 +17,37 @@
     color: white;
 }
 
-.banner-img {
+.banner img {
     width: 100%;
-    height: 100%;
-    border-radius: 3px;
+    height: 88vh;
+    object-fit: cover;
+}
+
+.banner img {
+    width: 100%;
+    height: 88vh;
+    object-fit: cover;
+}
+
+.card-shipping {
+    min-height: 15rem;
 }
 
 .shipping {
     width: 30%;
-    margin: 10% 0 5% 0%
 }
 
 .security {
     width: 24%;
-    margin: 5% 0 5% 0;
 }
 
 .support {
-    width: 32%;
-    margin: 0% 0 5% 0;
+    width: 30%;
 }
 
-.card {
+
+.card-dress,
+.card-shipping {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -52,6 +61,22 @@
     box-shadow: 2px 1px 2px 1px rgb(0 0 0 / 20%);
 }
 
+.btn-option {
+    padding: 7px 18px;
+    font-size: 18px;
+    color: black;
+    background-color: transparent;
+}
+
+.our-product {
+    margin-left: 5px;
+}
+
+.btn-option:hover {
+    background-color: rgb(240, 60, 60);
+    color: white;
+}
+
 .offer-one {
     width: 100%;
     height: 100vh;
@@ -61,238 +86,253 @@
 .offer-three,
 .offer-four {
     width: 100%;
+    height: 48vh;
+}
+
+.card-dress img {
+    width: 100%;
     height: 50vh;
 }
 
-.offer-one {
-    padding: 10px;
-}
-
-.offer-two {
-    padding: 10px 14px 7px 14px;
-}
-
-.offer-three {
-    padding: 7px 7px 7px 14px;
-}
-
-.offer-four {
-    padding: 7px 14px 7px 7px;
-}
-
-.btn-option {
-    padding: 9px 22px;
-    font-size: 18px;
-    color: black;
-    background-color: transparent;
-}
-
-.btn-option:hover {
-    background-color: rgb(240, 60, 60);
-    color: white;
-}
-
-.our-product {
-    margin-left: 5px;
+.card-dress-body {
+    padding: 7px;
 }
 
 .fa-star {
     color: gold;
-    margin-bottom: 20px;
 }
 
-.card-body2 {
-    justify-content: space-between;
-
+.men {
+    flex-direction: row;
+    padding: 5px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125) !important;
+    border-radius: 0.25rem;
+    min-height: 15rem;
+    box-shadow: 2px 1px 2px 1px rgb(0 0 0 / 20%);
 }
 
-.card2-img-1 {
-    width: 100%;
-    height: 60vh;
-}
-
-.men-png {
+.men img {
     object-fit: cover;
-    width: 94%;
-    height: 100%;
-    border: 1px solid block;
-    align-items: center;
-
+    width: 100%;
+    height: 45vh;
 }
 
-.men-cont {
-    box-shadow: 3px 5px 9px lightgrey;
-    background-color: white;
-    margin: 10%;
-    border: 1px solid white;
-    border-radius: 9px;
-}
-
-.men-card-bg {
-    background-color: (5deg 37% 93%);
-}
-
-.men-name {
-    margin-top: 10%
-}
-
-.cardlast {
-    margin: 10% 0%;
-    border: 1px solid white;
-    border-radius: 9px;
-    box-shadow: 3px 5px 9px lightgrey;
-    flex-direction: row;
-    height: 71%;
-}
-
-.cardfirst {
-    margin: 10% 0%;
-    border: 1px solid white;
-    border-radius: 9px;
-    box-shadow: 3px 5px 9px lightgrey;
-    flex-direction: row;
-    height: 71%;
-}
-
-.women-png {
-    width: 78%;
-    height: -webkit-fill-available;
-}
-
-.logo-last {
+.last-cont img {
     width: 25%;
 }
 
-.last-cont {
-    margin-top: 7%;
-    margin-bottom: 3%;
+.brands {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 50%;
+
 }
 
 .fa-facebook,
 .fa-instagram,
 .fa-twitter,
 .fa-linkedin-in {
-    border: 1px solid black;
-    border-radius: 50%;
-    background: transparent;
-    padding: 2%;
-    margin-right: 25px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
 }
 
-.footer-cont {
-    margin-bottom: 5%;
-}
+@media screen and (max-width:360px) {
 
-@media screen and (max-width:600px) {
+    .banner img {
+        height: 25vh;
+        object-fit: cover;
+    }
 
-    .card {
+    .btn-option {
+        padding: 4px 8px;
+    }
+
+    .offer-one {
         width: 100%;
-        margin-top: 15px;
-
+        height: 60vh;
     }
 
-    .card-text {
-        font-size: 20px;
-        font-weight: 300;
-    }
-
-    .offer-three,
-    .offer-four {
-        padding: 14px;
-    }
-
-    .cardfirst {
-        margin: 5% 0%;
-        height: 92%;
-    }
-
-    .cardlast {
-        margin: 0% 0%;
-        height: 92%;
-    }
-
-    .women-png {
-        width: 100%;
-        align-items: center;
-        margin-top: 25px;
-        height: -webkit-fill-available;
-    }
-
-    .card-dress {
-        margin-bottom: 5%;
-    }
-}
-
-@media screen and (min-width:601px) and (max-width:767px) {
-
-
-    .cardfirst,
-    .cardlast {
-        margin: 10% 0%;
-        height: 70%;
-    }
-
-    .women-png {
-        width: 100%;
-        align-items: center;
-        margin-top: 25px;
-        height: -webkit-fill-available;
+    .offer-two {
+        height: 40vh
     }
 
     .offer-two,
     .offer-three,
     .offer-four {
-        height: 30vh !important;
+        padding: 0px 10px;
+    }
+}
+
+
+@media screen and (min-width:361px) and (max-width:600px) {
+
+    .banner img {
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .btn-option {
+        padding: 5px 13px;
     }
 
     .offer-one {
-        height: 60vh !important;
+        width: 100%;
+        height: 50vh;
+    }
 
+    .offer-two {
+        height: 40vh
+    }
+
+    .offer-three,
+    .offer-four {
+        height: 45vh
+    }
+
+    .offer-two,
+    .offer-three,
+    .offer-four {
+        padding: 0px 10px;
+    }
+
+    .card-dress img {
+        height: 45vh;
+    }
+
+    .men img {
+        height: 25vh;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:680px) {
+
+    .btn-option {
+        padding: 5px 13px;
+    }
+
+    .shipping {
+        width: 18%;
+    }
+
+    .security {
+        width: 16%;
+    }
+
+    .support {
+        width: 20%;
+    }
+
+    .offer-two,
+    .offer-three,
+    .offer-four {
+        padding: 0px 20px;
+    }
+
+    .offer-two {
+        height: 70vh
+    }
+
+    .offer-three,
+    .offer-four {
+        height: 90vh
+    }
+
+    .card-dress img {
+        height: 90vh;
+    }
+
+    .men img {
+        height: 65vh;
+    }
+
+    .last-cont img {
+        width: 15%;
+    }
+
+    .footer-cont {
+        justify-content: left !important;
+    }
+}
+
+@media screen and (min-width:681px) and (max-width:767px) {
+    .banner img {
+        height: 30vh;
+    }
+
+    .offer-one {
+        height: 60vh;
+    }
+
+    .offer-two {
+        height: 40vh
+    }
+
+    .offer-two,
+    .offer-three,
+    .offer-four {
+        padding: 0px 20px;
+    }
+
+    .btn-option {
+        padding: 10px 35px;
+    }
+
+    .card-dress img {
+        height: 40vh;
+    }
+
+    .card-dress-body {
+        padding: 15px;
+    }
+
+    .men img {
+        height: 20vh;
+    }
+
+    .last-cont img {
+        width: 15%;
     }
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
 
-    .card2-img-1 {
-        height: 55vh;
+    .banner img {
+        height: 30vh;
     }
 
-    .cardfirst,
-    .cardlast {
-        margin: 10% 0%;
-        height: 85%;
+    .card-shipping {
+        min-height: 19rem;
     }
 
-    .women-png {
-        width: 100%;
-        margin-top: 25%;
-        height: -webkit-fill-available;
-    }
-
-    .offer-two,
-    .offer-three,
-    .offer-four {
-        height: 30vh !important;
+    .card-dress img {
+        height: 20vh;
     }
 
     .offer-one {
-        height: 60vh !important;
+        height: 50vh !important;
     }
 
+    .offer-two {
+        height: 24vh !important;
+    }
+
+    .offer-three,
+    .offer-four {
+        height: 24vh;
+    }
+
+    .men img {
+        height: 20vh;
+    }
+
+    .footer-cont {
+        justify-content: left !important;
+    }
 }
 
-@media screen and (min-width:992) and (max-width:1024px) {
-
-    .cardfirst,
-    .cardfirst {
-        margin: 10% 0%;
-        height: 80%;
-    }
-
-    .women-png {
-        width: 100%;
-        margin-top: 10%;
-        height: -webkit-fill-available;
-    }
-
-}
+@media screen and (min-width:992) and (max-width:1024px) {}
